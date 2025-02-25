@@ -48,7 +48,7 @@ def dump_frames(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Dump frames")
-    parser.add_argument("--video_dir", default="dataset/ag/videos",
+    parser.add_argument("--video_dir", default="../STAR/data/Charades_v1_480",
                         help="Folder containing Charades videos.")
     parser.add_argument("--frame_dir", default="dataset/ag/frames",
                         help="Root folder containing frames to be dumped.")
